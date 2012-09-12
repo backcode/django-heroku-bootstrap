@@ -1,0 +1,18 @@
+{% extends "_base.html" %}
+{% load core_tags %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block page_title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="span12">
+        <ul>
+            <li><a href="{% url profile_list %}">Users</a></li>
+        </ul>
+
+    </div>
+  </div>
+{% endblock %}
+
